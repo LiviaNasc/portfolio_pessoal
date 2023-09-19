@@ -5,7 +5,7 @@ body{
 }
 
 #navbar {
-  background-color: #BE3144;
+  background-color: #a431be;
   position: fixed;
   top: 0;
   left: 0;
@@ -52,8 +52,44 @@ h1{
 }
 
 #welcome-section > p{
-  color: #BE3144;
+  color: #a431be;
   font-size: 2rem;
   font-weight: 200;
   font-style: italic;
+}
+
+.projects{
+  margin: 0;
+  padding: 8rem 2rem; 
+  text-align: center;
+  background-color: #45567D;
+}
+
+.projects > h2{
+  font-size: 3.2rem;
+  color: white;
+}
+
+.project-img{
+  height: calc(100% - 5.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title{
+  color: white;
+  width: 100%;
+  background-color: #303841;
+  margin:0;
+  padding: 2rem 0;
+}
+
+.project-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
 }
