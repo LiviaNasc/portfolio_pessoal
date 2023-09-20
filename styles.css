@@ -94,3 +94,53 @@ h1{
   margin-bottom: 6rem;
 }
 
+#contacts{
+  background-color: #303841;
+  width: 100%;
+  height: 80vh;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+#contacts-p{
+  color: white;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+#contact-links {
+  margin-top: 20px;
+}
+
+#contact-links h2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.student-contact {
+  display: inline-block;
+  margin-right: 20px; 
+}
+
+.student-contact a {
+  text-decoration: none;
+  color: #a431be;
+}
+
+.student-contact a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 800px){
+  h2{
+    font-size: 2.5rem;
+  }
+}
+
